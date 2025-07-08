@@ -143,6 +143,29 @@ A Bokeh plot was created to visualize price over time for multiple parking lots.
 
 ![Untitled diagram _ Mermaid Chart-2025-07-08-053832](https://github.com/user-attachments/assets/e6868d70-2349-4735-98af-14aaa0f987fe)
 
+## Explanation
+* Dataset (CSV File):
+The project starts with a parking dataset containing info like occupancy, queue length, traffic, vehicle type, and timestamps.
+
+* Data Preprocessing:
+Date and time were merged into a single timestamp. Categorical data (traffic, vehicle type) was converted into numbers. Occupancy rate and demand scores were calculated.
+
+* Model 1 – Linear Pricing:
+A basic model where price increases as the lot fills up. Used as a starting reference.
+
+* Model 2 – Demand-Based Pricing:
+A smarter model that adjusts price based on demand, which includes traffic, queue length, vehicle type, and special day.
+
+* Model 3 – Competitive Pricing:
+Each parking lot checks the prices of nearby lots. If it’s too expensive or too full, it adjusts its price accordingly.
+
+* Real-Time Simulation:
+The entire dataset was sorted by time to simulate how prices would behave throughout the day — like a live system.
+
+* Bokeh Visualization:
+Prices over time were plotted using Bokeh for each lot, helping visualize the effect of each pricing model.
+
+
 
 
 
