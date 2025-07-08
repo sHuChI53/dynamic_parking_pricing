@@ -141,15 +141,8 @@ A Bokeh plot was created to visualize price over time for multiple parking lots.
 
 ## System Architecture (Mermaid Diagram)
 
-```mermaid
-graph TD
-    A[Raw Dataset (CSV)] --> B[Feature Engineering]
-    B --> C[Model 1: Linear]
-    B --> D[Model 2: Demand-Based]
-    B --> E[Model 3: Competitive]
-    E --> F[Sorted Timestamp Simulation]
-    F --> G[Bokeh Price Visualization]
-```
+![Untitled diagram _ Mermaid Chart-2025-07-08-053832](https://github.com/user-attachments/assets/e6868d70-2349-4735-98af-14aaa0f987fe)
+
 
 
 
