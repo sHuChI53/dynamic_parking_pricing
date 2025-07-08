@@ -166,6 +166,45 @@ The entire dataset was sorted by time to simulate how prices would behave throug
 Prices over time were plotted using Bokeh for each lot, helping visualize the effect of each pricing model.
 
 
+## Future Work
+
+- Build rerouting logic to redirect users when lots are full  
+- Deploy interactive UI using Streamlit  
+- Connect live traffic APIs to fetch congestion data  
+- Auto-tune weights in Model 2 using reinforcement learning  
+- Add heatmaps or map visualizations for better UX  
+
+---
+
+## Installation & Dependencies
+
+To run this project locally, install the following:
+
+```bash
+pip install pandas numpy bokeh pathway
+
+---
+
+## Files in This Repository
+
+| File                     | Description                                  |
+|--------------------------|----------------------------------------------|
+| `Dynamic_Pricing.ipynb`  | Notebook with full implementation            |
+| `dataset.csv`            | Parking lot sensor data                      |
+| `bokeh_plot.png`         | Final pricing visualization                  |
+| `problem statement.pdf`  | Official project prompt and dataset info     |
+
+---
+
+## Acknowledgements
+
+This capstone project was completed as part of **Summer Analytics 2025**, hosted by the **Consulting & Analytics Club** in collaboration with **Pathway**.
+
+**Special thanks to:**
+
+- **Pathway** – For providing the streaming simulation tools  
+- **Bokeh** – For making real-time plots easy to build  
+- **CACIITG** – For organizing this hands-on learning program
 
 
 
