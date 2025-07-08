@@ -182,7 +182,7 @@ To run this project locally, install the following:
 
 ```bash
 pip install pandas numpy bokeh pathway
-
+```
 ---
 
 ## Files in This Repository
