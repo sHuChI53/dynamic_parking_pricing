@@ -149,5 +149,7 @@ graph TD
     B --> E[Model 3: Competitive]
     E --> F[Sorted Timestamp Simulation]
     F --> G[Bokeh Price Visualization]
+```
+
 
 
